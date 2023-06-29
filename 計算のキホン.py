@@ -16,6 +16,8 @@ while True:
         if b.isdigit():
             num = int(a) + int(b)
             print(f"入力した2つの整数の和は{str(num)}です")
-            break
+            break    
         else:
-            print("整数を入力してください。")   
+            print("整数を入力してください。")
+    else:
+        print("整数を入力してください。")
